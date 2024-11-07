@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+.contact-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* Espaço entre a imagem e o texto */
+}
+
+.profile-icon {
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%; 
+    object-fit: cover;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.button {
+    margin: 0.5rem;
+    padding: 0.8rem 1.5rem;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.button:hover {
+    background: #555;
+}
+
+.about, .projects, .contact {
+    padding: 2rem;
+}
+
+.about-content, .project-grid {
+    max-width: 800px;
+    margin: auto;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.skills {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.project-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 400px;
+    margin: auto;
+}
+
+.about-info {
+    list-style-type: none; 
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.about-info li {
+    margin-bottom: 0.5rem; 
+    font-size: 1rem;
+}
+
+.about-info li strong {
+    font-weight: bold;
+    color: #333; 
+}
+
+.contact-info {
+    list-style-type: none; 
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.contact-info li {
+    margin-bottom: 0.5rem; 
+    font-size: 1rem;
+}
+
+.contact-info li strong {
+    font-weight: bold;
+    color: #333; 
+}
+
+.contact-info a {
+    color: #0073b1; 
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-info a:hover {
+    color: #005582; 
+}
+
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
